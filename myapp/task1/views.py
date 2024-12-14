@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from task1.forms import UserRegister
 from task1.models import *
-
 def Platform(request):
     return render(request, 'platform.html')
 def Games(request):
